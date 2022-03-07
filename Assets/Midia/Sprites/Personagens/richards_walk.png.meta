@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 50d1fabba6e996740a62366090dad4b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8992206982023516108
+    second: richards_walk_0
+  - first:
+      213: -273863016977445121
+    second: richards_walk_1
+  - first:
+      213: -7576295768317137212
+    second: richards_walk_2
+  - first:
+      213: -4761911386467661046
+    second: richards_walk_3
+  - first:
+      213: 1697881538702727185
+    second: richards_walk_4
+  - first:
+      213: 4002277809469907243
+    second: richards_walk_5
+  - first:
+      213: 6386011868234931387
+    second: richards_walk_6
+  - first:
+      213: 4885956709241053700
+    second: richards_walk_7
+  - first:
+      213: 2725211261671809701
+    second: richards_walk_8
+  - first:
+      213: -7231396070524565425
+    second: richards_walk_9
+  - first:
+      213: 3053053884746899782
+    second: richards_walk_10
+  - first:
+      213: -3706758294703168646
+    second: richards_walk_11
+  - first:
+      213: -5139116404299733102
+    second: richards_walk_12
+  - first:
+      213: -2341826609893969561
+    second: richards_walk_13
+  - first:
+      213: 3652150747674761728
+    second: richards_walk_14
+  - first:
+      213: -8661233907253729197
+    second: richards_walk_15
+  - first:
+      213: 685746601812343657
+    second: richards_walk_16
+  - first:
+      213: -3319917893400143509
+    second: richards_walk_17
+  - first:
+      213: -4332321980208385072
+    second: richards_walk_18
+  - first:
+      213: -1257152958918236018
+    second: richards_walk_19
+  - first:
+      213: 5194978150681795494
+    second: richards_walk_20
+  - first:
+      213: -2026451156368581596
+    second: richards_walk_21
+  - first:
+      213: -6705166021189981034
+    second: richards_walk_22
+  - first:
+      213: -3045912198956163799
+    second: richards_walk_23
+  - first:
+      213: -6473337245805165280
+    second: richards_walk_24
+  - first:
+      213: -2441514681850111477
+    second: richards_walk_25
+  - first:
+      213: -1551904762467910861
+    second: richards_walk_26
+  - first:
+      213: -3212559516715587020
+    second: richards_walk_27
+  - first:
+      213: -512640095556786069
+    second: richards_walk_28
+  - first:
+      213: -3392546607692158343
+    second: richards_walk_29
+  - first:
+      213: 8865060385348621395
+    second: richards_walk_30
+  - first:
+      213: 5657004283366132543
+    second: richards_walk_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: richards_walk_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 216
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8c4e7b9cbacc70800000000000000
+      internalID: 8992206982023516108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 216
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe41fb790b033cf0800000000000000
+      internalID: -273863016977445121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 216
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce6920c3279bd690800000000000000
+      internalID: -7576295768317137212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b05bdd2da4aedb0800000000000000
+      internalID: -4761911386467661046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118d1118346109710800000000000000
+      internalID: 1697881538702727185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21e1e57672fa8730800000000000000
+      internalID: 4002277809469907243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5299a5fbaf9850800000000000000
+      internalID: 6386011868234931387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_7
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 216
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ef3a7db76ec340800000000000000
+      internalID: 4885956709241053700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 152
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2a7d52435e1d520800000000000000
+      internalID: 2725211261671809701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 152
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f484a32669be4ab90800000000000000
+      internalID: -7231396070524565425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 152
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64127781550ae5a20800000000000000
+      internalID: 3053053884746899782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 152
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a732cff58f2fe8cc0800000000000000
+      internalID: -3706758294703168646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 152
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297e456cbd03ea8b0800000000000000
+      internalID: -5139116404299733102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 152
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76176b71b19208fd0800000000000000
+      internalID: -2341826609893969561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 152
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad45d41cb0fa230800000000000000
+      internalID: 3652150747674761728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 152
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358a29986ad1dc780800000000000000
+      internalID: -8661233907253729197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 88
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bb4fea6e2448900800000000000000
+      internalID: 685746601812343657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 88
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69db6004484de1d0800000000000000
+      internalID: -3319917893400143509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 88
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3ff05dc1080e3c0800000000000000
+      internalID: -4332321980208385072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 88
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e8576b02bd8ee0800000000000000
+      internalID: -1257152958918236018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 88
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abdd479a15481840800000000000000
+      internalID: 5194978150681795494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 87
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c98fde86990e3e0800000000000000
+      internalID: -2026451156368581596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 88
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ca3fa770772f2a0800000000000000
+      internalID: -6705166021189981034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_23
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 88
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d50343efebab5d0800000000000000
+      internalID: -3045912198956163799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 24
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0254a7872161a26a0800000000000000
+      internalID: -6473337245805165280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 24
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a5c62255ffd1ed0800000000000000
+      internalID: -2441514681850111477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 24
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bfcd347d6867ae0800000000000000
+      internalID: -1551904762467910861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 24
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aed52f322ba63d0800000000000000
+      internalID: -3212559516715587020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 24
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6827b69c8cb2e8f0800000000000000
+      internalID: -512640095556786069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 24
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a6d84b5d04be0d0800000000000000
+      internalID: -3392546607692158343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 24
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354971d8375070b70800000000000000
+      internalID: 8865060385348621395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: richards_walk_31
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 25
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bc6e27c67b18e40800000000000000
+      internalID: 5657004283366132543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

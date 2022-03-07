@@ -1,0 +1,4800 @@
+fileFormatVersion: 2
+guid: 4244bda7a4672b3458ef440dcb976b43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5238297105635420171
+    second: chrono_0
+  - first:
+      213: 1899890240632355820
+    second: chrono_1
+  - first:
+      213: 654500712520212558
+    second: chrono_2
+  - first:
+      213: 5480425827727643381
+    second: chrono_3
+  - first:
+      213: 3433833173013498655
+    second: chrono_4
+  - first:
+      213: -5732770333121692741
+    second: chrono_5
+  - first:
+      213: 1265390345027941687
+    second: chrono_6
+  - first:
+      213: 6283502611994142717
+    second: chrono_7
+  - first:
+      213: 4114973015286112806
+    second: chrono_8
+  - first:
+      213: 7135026317474916954
+    second: chrono_9
+  - first:
+      213: 1681021597617564089
+    second: chrono_10
+  - first:
+      213: 5220650964382903744
+    second: chrono_11
+  - first:
+      213: -6723443621076270765
+    second: chrono_12
+  - first:
+      213: -5808380567326859831
+    second: chrono_13
+  - first:
+      213: 4979632004402654244
+    second: chrono_14
+  - first:
+      213: 903380368609676690
+    second: chrono_15
+  - first:
+      213: 5160285041050344002
+    second: chrono_16
+  - first:
+      213: 6093836289946454333
+    second: chrono_17
+  - first:
+      213: -7589743154383780983
+    second: chrono_18
+  - first:
+      213: 904198176109889198
+    second: chrono_19
+  - first:
+      213: -7290197547360205633
+    second: chrono_20
+  - first:
+      213: -9055704599121453466
+    second: chrono_21
+  - first:
+      213: 6476777615626187969
+    second: chrono_22
+  - first:
+      213: 7051371575297351378
+    second: chrono_23
+  - first:
+      213: 8063171064544946307
+    second: chrono_24
+  - first:
+      213: 8092748665431595788
+    second: chrono_25
+  - first:
+      213: 2938325613790809307
+    second: chrono_26
+  - first:
+      213: 2689524231417643086
+    second: chrono_27
+  - first:
+      213: 2809834878667240642
+    second: chrono_28
+  - first:
+      213: -7811538193365020315
+    second: chrono_29
+  - first:
+      213: -9000820190200319027
+    second: chrono_30
+  - first:
+      213: -5187678556294591038
+    second: chrono_31
+  - first:
+      213: -5842393219164243605
+    second: chrono_32
+  - first:
+      213: 2411107608555466258
+    second: chrono_33
+  - first:
+      213: 6836849763444467465
+    second: chrono_34
+  - first:
+      213: -476015150434211611
+    second: chrono_35
+  - first:
+      213: -1670238540604576950
+    second: chrono_36
+  - first:
+      213: 7000312050075810355
+    second: chrono_37
+  - first:
+      213: 5259003403926803176
+    second: chrono_38
+  - first:
+      213: -5449053088177246953
+    second: chrono_39
+  - first:
+      213: 1570823880095247367
+    second: chrono_40
+  - first:
+      213: 6600852809185866626
+    second: chrono_41
+  - first:
+      213: 5821465816228109214
+    second: chrono_42
+  - first:
+      213: -5358538372425941672
+    second: chrono_43
+  - first:
+      213: 2394141093450250416
+    second: chrono_44
+  - first:
+      213: -8338443888992221313
+    second: chrono_45
+  - first:
+      213: 8826229888343108443
+    second: chrono_46
+  - first:
+      213: -7609000324842376205
+    second: chrono_47
+  - first:
+      213: -5447566662823437617
+    second: chrono_48
+  - first:
+      213: 2390730532182174469
+    second: chrono_49
+  - first:
+      213: -1837537242186380065
+    second: chrono_50
+  - first:
+      213: -6316687202126373622
+    second: chrono_51
+  - first:
+      213: -5861510173099254436
+    second: chrono_52
+  - first:
+      213: -9115253803177250324
+    second: chrono_53
+  - first:
+      213: 7603203305910680231
+    second: chrono_54
+  - first:
+      213: -6053108159099559773
+    second: chrono_55
+  - first:
+      213: 8299634164576329451
+    second: chrono_56
+  - first:
+      213: 4656993292766047802
+    second: chrono_57
+  - first:
+      213: -5606678118906246839
+    second: chrono_58
+  - first:
+      213: 7893117002367656853
+    second: chrono_59
+  - first:
+      213: -480677772060754579
+    second: chrono_60
+  - first:
+      213: 6570079072222355925
+    second: chrono_61
+  - first:
+      213: -3246467836131617248
+    second: chrono_62
+  - first:
+      213: -5718257174214795160
+    second: chrono_63
+  - first:
+      213: 2023859547714902069
+    second: chrono_64
+  - first:
+      213: 8881310440687501113
+    second: chrono_65
+  - first:
+      213: 7035665864140299197
+    second: chrono_66
+  - first:
+      213: -6832226747408740466
+    second: chrono_67
+  - first:
+      213: 1591237922170158177
+    second: chrono_68
+  - first:
+      213: -4842112991112123199
+    second: chrono_69
+  - first:
+      213: -3317450431050038490
+    second: chrono_70
+  - first:
+      213: 1735583270602740313
+    second: chrono_71
+  - first:
+      213: -6471041760063705506
+    second: chrono_72
+  - first:
+      213: -7087814032494577830
+    second: chrono_73
+  - first:
+      213: 542903083884414494
+    second: chrono_74
+  - first:
+      213: -4675980201787704230
+    second: chrono_75
+  - first:
+      213: 4006742724857676265
+    second: chrono_76
+  - first:
+      213: 7314549047130144087
+    second: chrono_77
+  - first:
+      213: -2996490225185449296
+    second: chrono_78
+  - first:
+      213: 8824594262198987207
+    second: chrono_79
+  - first:
+      213: -2463708421412119665
+    second: chrono_80
+  - first:
+      213: 996540348900000227
+    second: chrono_81
+  - first:
+      213: 7229037456261285859
+    second: chrono_82
+  - first:
+      213: -80439024967123207
+    second: chrono_83
+  - first:
+      213: -6103815822801354099
+    second: chrono_84
+  - first:
+      213: -2312608206959334382
+    second: chrono_85
+  - first:
+      213: -6229957836553677473
+    second: chrono_86
+  - first:
+      213: 6478608159944921328
+    second: chrono_87
+  - first:
+      213: 2053092126516856973
+    second: chrono_88
+  - first:
+      213: -2242389770680699636
+    second: chrono_89
+  - first:
+      213: -1948346439285544729
+    second: chrono_90
+  - first:
+      213: -4984629996171989538
+    second: chrono_91
+  - first:
+      213: -1960549660300048029
+    second: chrono_92
+  - first:
+      213: 7952549593559644901
+    second: chrono_93
+  - first:
+      213: 4413589230380560728
+    second: chrono_94
+  - first:
+      213: -5345691469574564674
+    second: chrono_95
+  - first:
+      213: -2542596164251015270
+    second: chrono_96
+  - first:
+      213: 8525610766647561829
+    second: chrono_97
+  - first:
+      213: -4883757615499605212
+    second: chrono_98
+  - first:
+      213: 1220866090686646426
+    second: chrono_99
+  - first:
+      213: -7157885253181520177
+    second: chrono_100
+  - first:
+      213: 2727990081348274915
+    second: chrono_101
+  - first:
+      213: -1533022784180611065
+    second: chrono_102
+  - first:
+      213: 8355527142008118953
+    second: chrono_103
+  - first:
+      213: 4761516696965244260
+    second: chrono_104
+  - first:
+      213: 5668296193054939798
+    second: chrono_105
+  - first:
+      213: 2025539540943567304
+    second: chrono_106
+  - first:
+      213: 1094196674706333275
+    second: chrono_107
+  - first:
+      213: -5628098688265141107
+    second: chrono_108
+  - first:
+      213: 419675555080133934
+    second: chrono_109
+  - first:
+      213: 8795755453507517695
+    second: chrono_110
+  - first:
+      213: 7932528453775379980
+    second: chrono_111
+  - first:
+      213: 8198621377721907363
+    second: chrono_112
+  - first:
+      213: 6714578822809566853
+    second: chrono_113
+  - first:
+      213: 5596098348920757126
+    second: chrono_114
+  - first:
+      213: 6181239190530969669
+    second: chrono_115
+  - first:
+      213: -7065221739168288733
+    second: chrono_116
+  - first:
+      213: -7177743578225066093
+    second: chrono_117
+  - first:
+      213: -8222554441943803862
+    second: chrono_118
+  - first:
+      213: -8673273473271052681
+    second: chrono_119
+  - first:
+      213: 5912523644135335668
+    second: chrono_120
+  - first:
+      213: 2422119767988461867
+    second: chrono_121
+  - first:
+      213: 7022048070790104648
+    second: chrono_122
+  - first:
+      213: 6881407315629869916
+    second: chrono_123
+  - first:
+      213: -843642302089993452
+    second: chrono_124
+  - first:
+      213: -2325103418281114134
+    second: chrono_125
+  - first:
+      213: 6763511976116168022
+    second: chrono_126
+  - first:
+      213: -4679193645186882368
+    second: chrono_127
+  - first:
+      213: -6749040978605660742
+    second: chrono_128
+  - first:
+      213: -841368457589286434
+    second: chrono_129
+  - first:
+      213: 8120511185439189190
+    second: chrono_130
+  - first:
+      213: -3972268800199448682
+    second: chrono_131
+  - first:
+      213: -6534071779913786873
+    second: chrono_132
+  - first:
+      213: 5530265332195326396
+    second: chrono_133
+  - first:
+      213: 1677968438709028590
+    second: chrono_134
+  - first:
+      213: -847840010556825840
+    second: chrono_135
+  - first:
+      213: 1881330124220122683
+    second: chrono_136
+  - first:
+      213: -8418339223914661985
+    second: chrono_137
+  - first:
+      213: -1630700756019945820
+    second: chrono_138
+  - first:
+      213: 4767547748423395231
+    second: chrono_139
+  - first:
+      213: -2307853979645821634
+    second: chrono_140
+  - first:
+      213: -6932253448551184989
+    second: chrono_141
+  - first:
+      213: -6952796673871963140
+    second: chrono_142
+  - first:
+      213: -5477593911739064996
+    second: chrono_143
+  - first:
+      213: 1433324736426640619
+    second: chrono_144
+  - first:
+      213: -6109728934837170320
+    second: chrono_145
+  - first:
+      213: 3564206513222628008
+    second: chrono_146
+  - first:
+      213: 6149564669222676853
+    second: chrono_147
+  - first:
+      213: 5173022513222941021
+    second: chrono_148
+  - first:
+      213: 5764889586775649548
+    second: chrono_149
+  - first:
+      213: -977028108477579758
+    second: chrono_150
+  - first:
+      213: -1661002943656333173
+    second: chrono_151
+  - first:
+      213: -7936802535841627449
+    second: chrono_152
+  - first:
+      213: 564597316855875230
+    second: chrono_153
+  - first:
+      213: -4492496933832477235
+    second: chrono_154
+  - first:
+      213: -8200208486869864009
+    second: chrono_155
+  - first:
+      213: -4418447720024511384
+    second: chrono_156
+  - first:
+      213: 6814544187324641773
+    second: chrono_157
+  - first:
+      213: 6576359807515436674
+    second: chrono_158
+  - first:
+      213: -3374231390789762322
+    second: chrono_159
+  - first:
+      213: 8203581872914753176
+    second: chrono_160
+  - first:
+      213: 3330908575461850468
+    second: chrono_161
+  - first:
+      213: 4420322112166536257
+    second: chrono_162
+  - first:
+      213: -3775346261221901028
+    second: chrono_163
+  - first:
+      213: 1700994761499981260
+    second: chrono_164
+  - first:
+      213: 2531739918404309301
+    second: chrono_165
+  - first:
+      213: -4383886556322749506
+    second: chrono_166
+  - first:
+      213: -500580077987170764
+    second: chrono_167
+  - first:
+      213: 5669277741064782693
+    second: chrono_168
+  - first:
+      213: 8712947035294565061
+    second: chrono_169
+  - first:
+      213: 3689307117470413946
+    second: chrono_170
+  - first:
+      213: -4687473109268997940
+    second: chrono_171
+  - first:
+      213: -5652703610587647451
+    second: chrono_172
+  - first:
+      213: 2210615157956364882
+    second: chrono_173
+  - first:
+      213: -4726524208225493642
+    second: chrono_174
+  - first:
+      213: -3670964069900306298
+    second: chrono_175
+  - first:
+      213: 1279592124851213064
+    second: chrono_176
+  - first:
+      213: 7909691368409227933
+    second: chrono_177
+  - first:
+      213: -8161458157176146647
+    second: chrono_178
+  - first:
+      213: 5006379248718033740
+    second: chrono_179
+  - first:
+      213: 1520762830263430010
+    second: chrono_180
+  - first:
+      213: -151953020526277936
+    second: chrono_181
+  - first:
+      213: 4089651080436726857
+    second: chrono_182
+  - first:
+      213: 5581135644338111515
+    second: chrono_183
+  - first:
+      213: -1486441396824760721
+    second: chrono_184
+  - first:
+      213: 649437578652487014
+    second: chrono_185
+  - first:
+      213: -2902419025246435796
+    second: chrono_186
+  - first:
+      213: -8608370151682911128
+    second: chrono_187
+  - first:
+      213: -7259856215083729737
+    second: chrono_188
+  - first:
+      213: -2874012227014612924
+    second: chrono_189
+  - first:
+      213: -1608319329252854250
+    second: chrono_190
+  - first:
+      213: 3776879705392500219
+    second: chrono_191
+  - first:
+      213: 2545460313268989033
+    second: chrono_192
+  - first:
+      213: 7779355156720678543
+    second: chrono_193
+  - first:
+      213: -1784142536495695603
+    second: chrono_194
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chrono_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 674
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b082b51c67b22b840800000000000000
+      internalID: 5238297105635420171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 675
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 0.49240255, y: 0.3541382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7f199b14cd5a10800000000000000
+      internalID: 1899890240632355820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 675
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48755836, y: 0.35413644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40e10b2ee0451900800000000000000
+      internalID: 654500712520212558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 675
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48755836, y: 0.35413644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f21597f0426e0c40800000000000000
+      internalID: 5480425827727643381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 675
+        width: 16
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47720814, y: 0.34269804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b0c6fd31d67af20800000000000000
+      internalID: 3433833173013498655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 675
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47139874, y: 0.38604546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb326b61cb1170b0800000000000000
+      internalID: -5732770333121692741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 675
+        width: 18
+        height: 35
+      alignment: 9
+      pivot: {x: 0.43922424, y: 0.35761195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735799180d19f8110800000000000000
+      internalID: 1265390345027941687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 675
+        width: 16
+        height: 34
+      alignment: 9
+      pivot: {x: 0.49240208, y: 0.3248237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7662d855c733750800000000000000
+      internalID: 6283502611994142717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 675
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5214485, y: 0.39364243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6226274c7225b1930800000000000000
+      internalID: 4114973015286112806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 675
+        width: 18
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5540212, y: 0.3541382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ae72cf1a4b40360800000000000000
+      internalID: 7135026317474916954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 675
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.50684613, y: 0.42295265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b921c19c30345710800000000000000
+      internalID: 1681021597617564089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 675
+        width: 22
+        height: 34
+      alignment: 9
+      pivot: {x: 0.60272634, y: 0.38820514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cde754546a737840800000000000000
+      internalID: 5220650964382903744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 675
+        width: 20
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5667633, y: 0.38215727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351026226a781b2a0800000000000000
+      internalID: -6723443621076270765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 675
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.3610122, y: 0.38121796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd533ce5ac746fa0800000000000000
+      internalID: -5808380567326859831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 675
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c269ebce43b1540800000000000000
+      internalID: 4979632004402654244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 675
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d8a00b8a3798c00800000000000000
+      internalID: 903380368609676690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 657
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a519b87e30d9740800000000000000
+      internalID: 5160285041050344002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 632
+        width: 16
+        height: 33
+      alignment: 9
+      pivot: {x: 0.48480558, y: 0.34898236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3984a5b1d7a19450800000000000000
+      internalID: 6093836289946454333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 632
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4240303, y: 0.35761195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983808230d0dba690800000000000000
+      internalID: -7589743154383780983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 632
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4729877, y: 0.36325455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea60695537b5c8c00800000000000000
+      internalID: 904198176109889198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 632
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.506752, y: 0.3747651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4cb2fa4f304da90800000000000000
+      internalID: -7290197547360205633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 632
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5455799, y: 0.35066617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e9e7275aca35280800000000000000
+      internalID: -9055704599121453466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 632
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5202569, y: 0.36325455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4b99c0de222e950800000000000000
+      internalID: 6476777615626187969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 632
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: 0.47974056, y: 0.3747651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de92e486118bd160800000000000000
+      internalID: 7051371575297351378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 632
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388e869dc5326ef60800000000000000
+      internalID: 8063171064544946307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 632
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b1193b8083f4070800000000000000
+      internalID: 8092748665431595788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 632
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcce6ce39707c820800000000000000
+      internalID: 2938325613790809307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 632
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40447ce90c135520800000000000000
+      internalID: 2689524231417643086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 632
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4b67c5fe98ef620800000000000000
+      internalID: 2809834878667240642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 632
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561d4138667d79390800000000000000
+      internalID: -7811538193365020315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 640
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc332f3b9b9a61380800000000000000
+      internalID: -9000820190200319027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 623
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd462ba6d9a108b0800000000000000
+      internalID: -5187678556294591038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 592
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47395325, y: 0.36772424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69709d4256abeea0800000000000000
+      internalID: -5842393219164243605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 592
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4739549, y: 0.36615708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ea03b6899f57120800000000000000
+      internalID: 2411107608555466258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 592
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4739527, y: 0.36772424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90722dcf2ae51ee50800000000000000
+      internalID: 6836849763444467465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 592
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3706379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e82aa22ebad469f0800000000000000
+      internalID: -476015150434211611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_36
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 592
+        width: 15
+        height: 33
+      alignment: 9
+      pivot: {x: 0.485082, y: 0.3779482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4be81985ee12d8e0800000000000000
+      internalID: -1670238540604576950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 592
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.49195752, y: 0.38141048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab7a568ba162160800000000000000
+      internalID: 7000312050075810355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 592
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47965795, y: 0.3564968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e290a38bbbbbf840800000000000000
+      internalID: 5259003403926803176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_39
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 592
+        width: 14
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5159825, y: 0.3474343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d23fc26131164b0800000000000000
+      internalID: -5449053088177246953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_40
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 592
+        width: 15
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37824744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c27c11fffacc510800000000000000
+      internalID: 1570823880095247367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_41
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 592
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283b92a38a0fa9b50800000000000000
+      internalID: 6600852809185866626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_42
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 592
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b1b5001500ac050800000000000000
+      internalID: 5821465816228109214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_43
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 592
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d7044bdb5a2a5b0800000000000000
+      internalID: -5358538372425941672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 606
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87449c3a2b93120800000000000000
+      internalID: 2394141093450250416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_45
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 592
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7787114675e74c80800000000000000
+      internalID: -8338443888992221313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_46
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 592
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b60a0f1511d7a70800000000000000
+      internalID: 8826229888343108443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_47
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 592
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f330fdc486676690800000000000000
+      internalID: -7609000324842376205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 587
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca162c8bfa5664b0800000000000000
+      internalID: -5447566662823437617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 541
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b266c90c49d2120800000000000000
+      internalID: 2390730532182174469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_50
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 441
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc0ee92d91cf76e0800000000000000
+      internalID: -1837537242186380065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 549
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5372933, y: 0.37824744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5008f47e9658a0800000000000000
+      internalID: -6316687202126373622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 549
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0.450275, y: 0.3683741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d941d9d8bb7aea0800000000000000
+      internalID: -5861510173099254436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 549
+        width: 17
+        height: 38
+      alignment: 9
+      pivot: {x: 0.40128103, y: 0.43522725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce17710f5fc108180800000000000000
+      internalID: -9115253803177250324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_54
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 549
+        width: 17
+        height: 38
+      alignment: 9
+      pivot: {x: 0.57239306, y: 0.4381714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aab1eb8f11048960800000000000000
+      internalID: 7603203305910680231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_55
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 549
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.49600384, y: 0.38462257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a02ad5333a0ffba0800000000000000
+      internalID: -6053108159099559773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_56
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 549
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48401695, y: 0.35315514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee9441ac493e2370800000000000000
+      internalID: 8299634164576329451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_57
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 533
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e62b8d9b6f0a040800000000000000
+      internalID: 4656993292766047802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_58
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 533
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94943a0d4f31132b0800000000000000
+      internalID: -5606678118906246839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 541
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59368b8181cf98d60800000000000000
+      internalID: 7893117002367656853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 541
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d74e0fc1a4459f0800000000000000
+      internalID: -480677772060754579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_61
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 507
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1aa0e3b1c9d2b50800000000000000
+      internalID: 6570079072222355925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_62
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 507
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026d4ac14ba32f2d0800000000000000
+      internalID: -3246467836131617248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_63
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 507
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860299c856ba4a0b0800000000000000
+      internalID: -5718257174214795160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_64
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 507
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53854d82981361c10800000000000000
+      internalID: 2023859547714902069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_65
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 507
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f75256ac0c04b70800000000000000
+      internalID: 8881310440687501113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_66
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 507
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb9c6ea3d4b3a160800000000000000
+      internalID: 7035665864140299197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_67
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 485
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f87cfc8fd0f21a0800000000000000
+      internalID: -6832226747408740466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_68
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 485
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c3510a576351610800000000000000
+      internalID: 1591237922170158177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_69
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 485
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc2572a3eb5dccb0800000000000000
+      internalID: -4842112991112123199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_70
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 485
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623cb49d86c06f1d0800000000000000
+      internalID: -3317450431050038490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_71
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 485
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95213620ac7061810800000000000000
+      internalID: 1735583270602740313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_72
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 464
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e2fa4edcd3236a0800000000000000
+      internalID: -6471041760063705506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_73
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 464
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57b127b0b603ad90800000000000000
+      internalID: -7087814032494577830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_74
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 464
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1605667a77c88700800000000000000
+      internalID: 542903083884414494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_75
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 464
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c3fa7e7c49b1fb0800000000000000
+      internalID: -4675980201787704230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_76
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 464
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1c585974fca9730800000000000000
+      internalID: 4006742724857676265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_77
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 464
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d3d5eaa9f728560800000000000000
+      internalID: 7314549047130144087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_78
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 465
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba14ea24045a66d0800000000000000
+      internalID: -2996490225185449296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 465
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9225d0ab1477a70800000000000000
+      internalID: 8824594262198987207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_80
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 465
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b97977e362fcdd0800000000000000
+      internalID: -2463708421412119665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_81
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 430
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1478cda2c64dd00800000000000000
+      internalID: 996540348900000227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_82
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 430
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e78270f343b25460800000000000000
+      internalID: 7229037456261285859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_83
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 424
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe71ca022932eef0800000000000000
+      internalID: -80439024967123207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_84
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 424
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82448b39d3ea4ba0800000000000000
+      internalID: -6103815822801354099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_85
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 424
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c2987a617f7efd0800000000000000
+      internalID: -2312608206959334382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_86
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 424
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f559e8afa5eba89a0800000000000000
+      internalID: -6229957836553677473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_87
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 424
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0d67cdbc3a8e950800000000000000
+      internalID: 6478608159944921328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_88
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 424
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88403c496c0e7c10800000000000000
+      internalID: 2053092126516856973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_89
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 424
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c057b9e526e61e0e0800000000000000
+      internalID: -2242389770680699636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_90
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 424
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8ecfa7c3516f4e0800000000000000
+      internalID: -1948346439285544729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_91
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 430
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd696d9d6903dab0800000000000000
+      internalID: -4984629996171989538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_92
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 430
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3698d4da87abac4e0800000000000000
+      internalID: -1960549660300048029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_93
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 429
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eabcce88b12d5e60800000000000000
+      internalID: 7952549593559644901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_94
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 287
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851b2555508304d30800000000000000
+      internalID: 4413589230380560728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_95
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 382
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb41c2d5ee940d5b0800000000000000
+      internalID: -5345691469574564674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 379
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a972c868242e6bcd0800000000000000
+      internalID: -2542596164251015270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 382
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e064752dd015670800000000000000
+      internalID: 8525610766647561829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_98
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 378
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b890fe258693cb0800000000000000
+      internalID: -4883757615499605212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_99
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 381
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9882b5bd3361f010800000000000000
+      internalID: 1220866090686646426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 381
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6cb1d49451aac90800000000000000
+      internalID: -7157885253181520177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_101
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 381
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea8d858684cbd520800000000000000
+      internalID: 2727990081348274915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_102
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 381
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708955c66eb99bae0800000000000000
+      internalID: -1533022784180611065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_103
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 376
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae578a8aabc4f370800000000000000
+      internalID: 8355527142008118953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_104
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 382
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46564b2553e441240800000000000000
+      internalID: 4761516696965244260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_105
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a1dbc0b55d9ae40800000000000000
+      internalID: 5668296193054939798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_106
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 380
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9f2701b792c1c10800000000000000
+      internalID: 2025539540943567304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_107
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 379
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ed84e041e5f2f00800000000000000
+      internalID: 1094196674706333275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_108
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 335
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d844d1ddf0af4e1b0800000000000000
+      internalID: -5628098688265141107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_109
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 335
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d577d91bcf2d500800000000000000
+      internalID: 419675555080133934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_110
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 335
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc3589abfcc01a70800000000000000
+      internalID: 8795755453507517695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_111
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 335
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ec5f1b990061e60800000000000000
+      internalID: 7932528453775379980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_112
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 335
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8b90374ba57c170800000000000000
+      internalID: 8198621377721907363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_113
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 335
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ebced2dd9fe2d50800000000000000
+      internalID: 6714578822809566853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_114
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 336
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b52978cc559ad40800000000000000
+      internalID: 5596098348920757126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_115
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 336
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540525f4b4c28c550800000000000000
+      internalID: 6181239190530969669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_116
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 336
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320b189e24a43fd90800000000000000
+      internalID: -7065221739168288733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_117
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 336
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fbd03be38836c90800000000000000
+      internalID: -7177743578225066093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_118
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 325
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2811adcc4e93ed80800000000000000
+      internalID: -8222554441943803862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_119
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 294
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7764cd1aab752a780800000000000000
+      internalID: -8673273473271052681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_120
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 294
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6e8ceade08d0250800000000000000
+      internalID: 5912523644135335668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_121
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 294
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21676698191d9120800000000000000
+      internalID: 2422119767988461867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_122
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 294
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84649271483537160800000000000000
+      internalID: 7022048070790104648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_123
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 294
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b84ea8e7baf7f50800000000000000
+      internalID: 6881407315629869916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_124
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 294
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413ee6acbc7ca44f0800000000000000
+      internalID: -843642302089993452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_125
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 294
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5ce4f82c29bbfd0800000000000000
+      internalID: -2325103418281114134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_126
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 285
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6552182ce42dcdd50800000000000000
+      internalID: 6763511976116168022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_127
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 283
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4ee5fcb2a201fb0800000000000000
+      internalID: -4679193645186882368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_128
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 297
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5a7a7ecf69652a0800000000000000
+      internalID: -6749040978605660742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_129
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 199
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91c2878dbd254f0800000000000000
+      internalID: -841368457589286434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_130
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 254
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c860ba16e9d1b070800000000000000
+      internalID: 8120511185439189190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_131
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 254
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697aebb729aafd8c0800000000000000
+      internalID: -3972268800199448682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_132
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 254
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a955dc5505255a0800000000000000
+      internalID: -6534071779913786873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_133
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 254
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9f82fd4037fbc40800000000000000
+      internalID: 5530265332195326396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_134
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 254
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6819d9767594710800000000000000
+      internalID: 1677968438709028590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_135
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 233
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f9560a00edb34f0800000000000000
+      internalID: -847840010556825840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_136
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 233
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36c16fb7c3db1a10800000000000000
+      internalID: 1881330124220122683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_137
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 233
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9734dff31d0c2b80800000000000000
+      internalID: -8418339223914661985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_138
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 233
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae587e5d469e59e0800000000000000
+      internalID: -1630700756019945820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_139
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 216
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f976d7aea6bb92240800000000000000
+      internalID: 4767547748423395231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_140
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 216
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3db5780bd8ffd0800000000000000
+      internalID: -2307853979645821634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_141
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 216
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5412a9730bbcf90800000000000000
+      internalID: -6932253448551184989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_142
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 216
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb185a3344b28f90800000000000000
+      internalID: -6952796673871963140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_143
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 216
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d53fadb5dabf3b0800000000000000
+      internalID: -5477593911739064996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_144
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 191
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be48d72f04134e310800000000000000
+      internalID: 1433324736426640619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_145
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 191
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fca1d87e1e53ba0800000000000000
+      internalID: -6109728934837170320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_146
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 191
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2b4c690fa967130800000000000000
+      internalID: 3564206513222628008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_147
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 104
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5796f402c74a75550800000000000000
+      internalID: 6149564669222676853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_148
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 171
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5970c361944ac740800000000000000
+      internalID: 5173022513222941021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_149
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 171
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d6c151980010050800000000000000
+      internalID: 5764889586775649548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_150
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 171
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e3f92ac16e072f0800000000000000
+      internalID: -977028108477579758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_151
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 171
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b807c748f9ee2f8e0800000000000000
+      internalID: -1661002943656333173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_152
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 171
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c28db60520dad190800000000000000
+      internalID: -7936802535841627449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_153
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e964550b44ad5d700800000000000000
+      internalID: 564597316855875230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_154
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 142
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5326847d177a1c0800000000000000
+      internalID: -4492496933832477235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_155
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 150
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b17af7e3d1033e80800000000000000
+      internalID: -8200208486869864009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_156
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 150
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ced4565358ea2c0800000000000000
+      internalID: -4418447720024511384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_157
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 126
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de130b755df129e50800000000000000
+      internalID: 6814544187324641773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_158
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 126
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2862d12e66ce34b50800000000000000
+      internalID: 6576359807515436674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_159
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 128
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee201027d625c21d0800000000000000
+      internalID: -3374231390789762322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_160
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 128
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896eaecbf3af8d170800000000000000
+      internalID: 8203581872914753176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_161
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 129
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46db4b393b3c93e20800000000000000
+      internalID: 3330908575461850468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_162
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 129
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144ad788a83285d30800000000000000
+      internalID: 4420322112166536257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_163
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 104
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1df4cbf3964b9bc0800000000000000
+      internalID: -3775346261221901028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_164
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 104
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5b10c29b52b9710800000000000000
+      internalID: 1700994761499981260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_165
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 103
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5315a24ca0c822320800000000000000
+      internalID: 2531739918404309301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_166
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 103
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3a5c2676e4923c0800000000000000
+      internalID: -4383886556322749506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_167
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 103
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ffed32159d09f0800000000000000
+      internalID: -500580077987170764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_168
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 103
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563023181125dae40800000000000000
+      internalID: 5669277741064782693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_169
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 88
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c286895a2b9ae870800000000000000
+      internalID: 8712947035294565061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_170
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 88
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74f42cc64d033330800000000000000
+      internalID: 3689307117470413946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 89
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc853dbda00c2feb0800000000000000
+      internalID: -4687473109268997940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_172
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 95
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522fa56f3009d81b0800000000000000
+      internalID: -5652703610587647451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_173
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 94
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a451916ceadae10800000000000000
+      internalID: 2210615157956364882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_174
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 103
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d5f6a5643086eb0800000000000000
+      internalID: -4726524208225493642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_175
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 45
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688be56c0ad1e0dc0800000000000000
+      internalID: -3670964069900306298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_176
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 45
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803d42b024602c110800000000000000
+      internalID: 1279592124851213064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_177
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 46
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d926109646ed4cd60800000000000000
+      internalID: 7909691368409227933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_178
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 46
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9253d4c1c0dacbe80800000000000000
+      internalID: -8161458157176146647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_179
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 66
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43b9bad66b3a7540800000000000000
+      internalID: 5006379248718033740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_180
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 48
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b287d9cb5da1510800000000000000
+      internalID: 1520762830263430010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_181
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dacbfc688724edf0800000000000000
+      internalID: -151953020526277936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_182
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c39b06dfb51c830800000000000000
+      internalID: 4089651080436726857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_183
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 5
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144b046c4d247d40800000000000000
+      internalID: 5581135644338111515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_184
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 60
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e13d2dc691f5be0800000000000000
+      internalID: -1486441396824760721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_185
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 60
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d0f537904430900800000000000000
+      internalID: 649437578652487014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_186
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 60
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26c9d2364988b7d0800000000000000
+      internalID: -2902419025246435796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_187
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 46
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8645dd5c4fce88880800000000000000
+      internalID: -8608370151682911128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_188
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 45
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb58b9c3fcf3b90800000000000000
+      internalID: -7259856215083729737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_189
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4482aa05b157d18d0800000000000000
+      internalID: -2874012227014612924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_190
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6163d7e571a1ea9e0800000000000000
+      internalID: -1608319329252854250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_191
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 46
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd4d4fc41c2a6430800000000000000
+      internalID: 3776879705392500219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_192
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 12
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ca0422baa435320800000000000000
+      internalID: 2545460313268989033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_193
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 12
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8670f95c42d5fb60800000000000000
+      internalID: 7779355156720678543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrono_194
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 13
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09728bd0d37d37e0800000000000000
+      internalID: -1784142536495695603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
