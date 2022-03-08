@@ -22,6 +22,8 @@ public class Skill : MonoBehaviour
 
     private Vector3Int originSkill;
 
+    private bool inPlay = false;
+
     void Start()
     {
         spRender = GetComponent<SpriteRenderer>();
@@ -31,6 +33,15 @@ public class Skill : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).length);
+        if(inPlay){
+            Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime == 1){
+                Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+            }
+        }
+
         if(!BattleManager.inBattle){
             return;
         }
@@ -133,6 +144,7 @@ public class Skill : MonoBehaviour
     public void play(){
         spRender.enabled = true;
         animator.SetTrigger("play");
+        inPlay = true;
         BattleManager.clearTargetSkillTile();
     }
 

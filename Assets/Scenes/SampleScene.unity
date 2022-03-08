@@ -2151,8 +2151,9 @@ MonoBehaviour:
   walkDelay: 1
   status: {fileID: 1972194731}
   energySpeed: 0
-  atk: {fileID: 0}
-  skills: []
+  basicAttack: {fileID: 0}
+  mainSkill: {fileID: 0}
+  secondSkill: {fileID: 0}
 --- !u!4 &784672068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8618846295073935800, guid: 23470671ff7dc0841bb7450b05d1586c, type: 3}

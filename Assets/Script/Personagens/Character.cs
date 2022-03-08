@@ -112,7 +112,8 @@ public class Character : MonoBehaviour
         }
 
 
-        updateMainSkill();        
+        updateMainSkill();
+        updateBasicSkill();
     }
 
     public void prepareBasicSkill(InputAction.CallbackContext context){
@@ -141,7 +142,7 @@ public class Character : MonoBehaviour
 
     private void updateBasicSkill(){
         if(!inBasicAttackPrepare){
-            basicSkill.clearSkillArea();
+            //basicSkill.clearSkillArea();
             return;
         }
         if(movedInPrepare || mainSkill.typeSkill == TypeSkill.InLine){
@@ -176,7 +177,7 @@ public class Character : MonoBehaviour
 
     private void updateMainSkill(){
         if(!inMainAttackPrepare){
-            mainSkill.clearSkillArea();
+            //mainSkill.clearSkillArea();
             return;
         }
         if(movedInPrepare || mainSkill.typeSkill == TypeSkill.InLine){
