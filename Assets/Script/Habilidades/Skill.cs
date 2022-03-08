@@ -24,21 +24,19 @@ public class Skill : MonoBehaviour
 
     private bool inPlay = false;
 
-    void Start()
+    void Awake()
     {
         spRender = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        spRender.sortingOrder = 50;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-        Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).length);
         if(inPlay){
-            Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime == 1){
-                Debug.Log("->"+animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1){
+                endSkill();
             }
         }
 
