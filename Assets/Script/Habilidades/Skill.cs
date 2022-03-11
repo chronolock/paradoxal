@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PCI.Battle;
 
 public class Skill : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class Skill : MonoBehaviour
 
     private bool inPlay = false;
 
+    private bool inPrepare = false;
+
     void Awake()
     {
         spRender = GetComponent<SpriteRenderer>();
@@ -45,6 +48,18 @@ public class Skill : MonoBehaviour
         }
     }
 
+    public bool preparingSkill{
+        get{
+            return inPrepare;
+        }
+    }
+
+    public Vector3Int lastOriginPoint{
+        get{
+            return originSkill;
+        }
+    }
+
     public void clearSkillArea(){
         if(!BattleManager.inBattle){
             return;
@@ -59,6 +74,8 @@ public class Skill : MonoBehaviour
         if(!BattleManager.inBattle){
             return;
         }
+
+        inPrepare = true;
 
         originSkill = origin;
 
@@ -117,6 +134,7 @@ public class Skill : MonoBehaviour
     }
 
     public bool execSkill(){
+        inPrepare = false;
         if(!BattleManager.hasSingleTargetSet() && singleTarget){
             return false;
         }
@@ -138,6 +156,10 @@ public class Skill : MonoBehaviour
         return true;
     }
 
+    public void cancelSkill(){
+        inPrepare = false;
+        clearSkillArea();
+    }
 
     public void play(){
         spRender.enabled = true;

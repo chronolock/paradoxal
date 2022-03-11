@@ -2,27 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
+using PCI.Battle;
 
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class Character : MonoBehaviour
 {
-    public float walkSpeed;
-    
     public float energySpeed;
-
-    public Vector2 ajustPos;
-
+    public Vector2 ajustSpritePosition;
+    public float walkSpeed;
     public StatusChar status;
 
     private Animator anima;
     private Rigidbody2D rbody;
     private SpriteRenderer sRender;
 
-    private int faceDirection;
+    protected int faceDirection;
 
-    private Vector2 moveTo;
-    private Vector3Int moveToBattlePos;
-
-    private bool stopped;
+    protected Vector2 moveTo;
+    protected Vector3Int moveToInBattle;
 
     private bool movingToBattle = false;
 
@@ -30,25 +29,21 @@ public class Character : MonoBehaviour
 
     private float maxTimeToWalk = 1;
 
-    private Vector2 startPos = Vector2.zero;
+    private Vector3Int currentBattlePos = Vector3Int.zero;
+    private Vector2 startTilePos = Vector2.zero;
+    private Vector2 startCharPos = Vector2.zero;
 
     private float energy = 0;
-
     private int energyLevel = 0;
-
-    public bool currentChar = false;
+    private bool stopped = true;
 
     public Skill mainSkill;
     public Skill secondSkill;
     public Skill basicSkill;
 
-    private bool inMainAttackPrepare = false;
-    private bool inBasicAttackPrepare = false;
-    private bool movedInPrepare = false;
+    protected string prefixID = "";
+    private string randId = "";
 
-    private Vector3 mousePos;
-
-    // Start is called before the first frame update
     void Start()
     {
         anima = GetComponent<Animator>();
@@ -56,20 +51,27 @@ public class Character : MonoBehaviour
         sRender = GetComponent<SpriteRenderer>();
 
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        
-        if(transform.parent){
-            mousePos = transform.parent.InverseTransformPoint(Mouse.current.position.ReadValue());
-        } else {
-            mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        }
+        execOnUpdate();
+    }
 
-        anima.SetBool("stopped", stopped);        
+    void FixedUpdate() {
+        execOnFixedUpdate();
+    }
+
+    public string GetID(){
+        if(randId == ""){
+            randId = prefixID + Random.Range(0, 9999999);
+        }
+        return randId;
+    }
+
+    protected void execOnUpdate(){
         anima.SetInteger("faceDirection", faceDirection);
         anima.SetBool("inBattle", BattleManager.inBattle);
+        anima.SetBool("stopped", stopped);
 
         if(BattleManager.inBattle){
             if(energyLevel < 5){
@@ -110,224 +112,176 @@ public class Character : MonoBehaviour
             energyLevel = 0;
             status.enableStatusBar(false);
         }
-
-
-        updateMainSkill();
-        updateBasicSkill();
     }
 
-    public void prepareBasicSkill(InputAction.CallbackContext context){
-        //Debug.Log(context.started+ " - "+context.performed+" - "+context.canceled);
-
-        if(!BattleManager.inBattle){
-            return;
-        }
-
-        if(context.started){
-            inBasicAttackPrepare = true;
-            movedInPrepare = false;
-            basicSkill.prepareSkill(BattleManager.getPosObject(1), getQuadrante(mousePos));
-             
-        }
-        if(context.canceled){
-            inBasicAttackPrepare = false;
-            if(basicSkill.energyCost <= energyLevel){
-                if(basicSkill.execSkill()){
-                    energyLevel -= basicSkill.energyCost;
-                }
-            }
-            basicSkill.clearSkillArea();
-        }
-    }
-
-    private void updateBasicSkill(){
-        if(!inBasicAttackPrepare){
-            //basicSkill.clearSkillArea();
-            return;
-        }
-        if(movedInPrepare || mainSkill.typeSkill == TypeSkill.InLine){
-            basicSkill.clearSkillArea();
-            movedInPrepare = false;
-            basicSkill.prepareSkill(BattleManager.getPosObject(1), getQuadrante(mousePos));
-        }
-    }
-
-    public void prepareMainSkill(InputAction.CallbackContext context){
-        if(!BattleManager.inBattle){
-            return;
-        }
-
-        if(context.started){
-            inMainAttackPrepare = true;
-            movedInPrepare = false;
-            mainSkill.prepareSkill(BattleManager.getPosObject(1), getQuadrante(mousePos));
-             
-        }
-        if(context.canceled){
-            inMainAttackPrepare = false;
-            if(mainSkill.energyCost <= energyLevel){
-                if(mainSkill.execSkill()){
-                    energyLevel -= mainSkill.energyCost;
-                }
-            }
-            mainSkill.clearSkillArea();
-        }
-
-    }
-
-    private void updateMainSkill(){
-        if(!inMainAttackPrepare){
-            //mainSkill.clearSkillArea();
-            return;
-        }
-        if(movedInPrepare || mainSkill.typeSkill == TypeSkill.InLine){
-            mainSkill.clearSkillArea();
-            movedInPrepare = false;
-            mainSkill.prepareSkill(BattleManager.getPosObject(1), getQuadrante(mousePos));
-        }
-    }
-
-    void FixedUpdate() {
+    protected void execOnFixedUpdate(){
         rbody.velocity = Vector2.zero;
 
-        if(moveTo != Vector2.zero){
-            stopped = false;
-            if(BattleManager.inBattle){
-                if(movingToBattle){
-                    faceDirection = 1;
-                    countTimeToWalk += Time.deltaTime;
-                    rbody.MovePosition( new Vector2(Mathf.Lerp(startPos.x, moveTo.x, countTimeToWalk/maxTimeToWalk), Mathf.Lerp(startPos.y, moveTo.y, countTimeToWalk/maxTimeToWalk)));
-                    if(countTimeToWalk >= maxTimeToWalk){
-                        countTimeToWalk = 0;
-                        moveTo = Vector2.zero;
-                        movingToBattle = false;
-                    }
-                } else {
-                    rbody.MovePosition(BattleManager.MoveCharTo(moveToBattlePos) + ajustPos);
-                    moveTo = Vector2.zero;
-                    movedInPrepare = true;
+        if(BattleManager.inBattle){
+            
+            if(movingToBattle){
+                stopped = false;
+                faceDirection = Quadrant.GetQuadrantByAngle(transform.position, startTilePos);
+                countTimeToWalk += Time.deltaTime;
+                rbody.MovePosition( Vector2.Lerp(startTilePos, startCharPos, countTimeToWalk/maxTimeToWalk) );
+
+                if(countTimeToWalk >= maxTimeToWalk){
+                    countTimeToWalk = 0;
+                    movingToBattle = false;
                 }
+
             } else {
-                rbody.MovePosition(rbody.position + moveTo.normalized * Time.fixedDeltaTime * walkSpeed);
+                stopped = true;
+                if(moveToInBattle != Vector3Int.zero){
+                    rbody.MovePosition(BattleManager.MoveCharTo(moveToInBattle) + ajustSpritePosition);
+                }
             }
         } else {
-            stopped = true;
+            if(moveTo != Vector2.zero){
+                stopped = true;
+            } else {
+                stopped = false;
+                rbody.MovePosition(rbody.position + moveTo.normalized * Time.fixedDeltaTime * walkSpeed);
+            }
+        }
+
+        moveTo = Vector2.zero;
+        moveToInBattle = Vector3Int.zero;
+    }
+
+    public void EnterInBattle(Vector3Int startPos){
+        currentBattlePos = startPos;
+        startTilePos = BattleManager.getTilePos(currentBattlePos);
+        startCharPos = transform.position;
+    }
+
+    public void MoveInBattle(Vector3Int direction){
+        moveToInBattle = direction;
+        changeFaceDirection(((Vector2Int) moveToInBattle));
+        
+    }
+    public void MoveInBattle(Vector2Int direction){
+        MoveInBattle(((Vector3Int)direction));
+    }
+
+    public void MoveInBattle(int quadrant){
+        MoveInBattle(quadrant, 1);
+    }
+
+    public void MoveInBattle(int quadrant, int steps){
+        if(!BattleManager.inBattle){
+            return;
+        }
+        moveToInBattle = Quadrant.GetVectorByQuadrant(quadrant) * steps;
+        changeFaceDirection(((Vector2Int) moveToInBattle));
+    }
+
+    public void Move(int quadrant){
+        if(BattleManager.inBattle){
+            return;
+        }
+
+        Vector3Int direction = Quadrant.GetVectorByQuadrant(quadrant);
+        Move(((Vector2Int)direction));
+    }
+
+    public void Move(Vector2 direction){
+        if(BattleManager.inBattle){
+            return;
+        }
+
+        changeFaceDirection(direction);
+        moveTo = direction;
+    }
+
+    public void changeFaceDirection(Vector2 direction){
+        if(direction != Vector2.zero){
+            if((direction.x != 0) && (direction.y != 0)){
+                if(((direction.x > 0) && (faceDirection != 1)) && ((direction.y > 0) && (faceDirection != 2))){
+                    faceDirection = 2;
+                } else {
+                    if(((direction.x > 0) && (faceDirection != 1)) && ((direction.y < 0) && (faceDirection != 0))){
+                        faceDirection = 0;
+                    } else {
+                        if(((direction.x < 0) && (faceDirection != 3)) && ((direction.y < 0) && (faceDirection != 0))){
+                            faceDirection = 0;
+                        } else {
+                            if(((direction.x < 0) && (faceDirection != 3)) && ((direction.y > 0) && (faceDirection != 2))){
+                                faceDirection = 2;
+                            }
+                        }
+                    }
+                }
+            } else {
+                if(direction.x > 0){
+                    faceDirection = 1;
+                } else {
+                    if(direction.x < 0){
+                        faceDirection = 3;
+                    } else {
+                        if(direction.y > 0){
+                            faceDirection = 2;
+                        } else {
+                            if(direction.y < 0){
+                                faceDirection = 0;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
-    public void moveToBattle(Vector2 pos){
-        pos += ajustPos;
-        movingToBattle = true;
-        startPos = rbody.position;
-        moveTo = pos;
+    protected void prepareSkill(Skill skill){
+        if(!BattleManager.inBattle){
+            return;
+        }
+        skill.prepareSkill(BattleManager.getPosObject(GetID()), Quadrant.GetQuadrantByAngle(transform.position, GetMousePos()));
     }
 
-    public void moveChar(InputAction.CallbackContext context){
+    protected void updateSkill(Skill skill){
+        if(!skill.preparingSkill){
+            return;
+        }
 
-        Vector2 move = context.ReadValue<Vector2>();
+        Vector3Int currentPos = BattleManager.getPosObject(GetID());
 
+        if((currentPos != skill.lastOriginPoint) || skill.typeSkill == TypeSkill.InLine){
+            skill.clearSkillArea();
+            skill.prepareSkill(currentPos, Quadrant.GetQuadrantByAngle(transform.position, GetMousePos()));
+        }
+    }
+
+    protected void execSkill(Skill skill){
+        if(skill.energyCost <= energyLevel){
+            if(skill.execSkill()){
+                energyLevel -= skill.energyCost;
+            }
+        } else {
+            skill.cancelSkill();
+        }
+    }
+
+    private Vector2 GetMousePos(){
+        if(transform.parent){
+            return transform.parent.InverseTransformPoint(Mouse.current.position.ReadValue());
+        } else {
+            return Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        }
+    }
+
+    public void MoveByKeyboard(InputAction.CallbackContext context){
         if(movingToBattle){
             return;
         }
 
-        if(move != Vector2.zero){
-            if((move.x != 0) && (move.y != 0)){
-                if(((move.x > 0) && (faceDirection != 1)) && ((move.y > 0) && (faceDirection != 2))){
-                    faceDirection = 2;
-                    moveToBattlePos = new Vector3Int(1, 1, 0);
-                } else {
-                    if(((move.x > 0) && (faceDirection != 1)) && ((move.y < 0) && (faceDirection != 0))){
-                        faceDirection = 0;
-                        moveToBattlePos = new Vector3Int(1, -1, 0);
-                    } else {
-                        if(((move.x < 0) && (faceDirection != 3)) && ((move.y < 0) && (faceDirection != 0))){
-                            faceDirection = 0;
-                            moveToBattlePos = new Vector3Int(-1, -1, 0);
-                        } else {
-                            if(((move.x < 0) && (faceDirection != 3)) && ((move.y > 0) && (faceDirection != 2))){
-                                faceDirection = 2;
-                                moveToBattlePos = new Vector3Int(-1, 1, 0);
-                            }
-                        }
-                    }
-                }
-            } else {
-                if(move.x > 0){
-                    faceDirection = 1;
-                    moveToBattlePos = new Vector3Int(1, 0, 0);
-                } else {
-                    if(move.x < 0){
-                        faceDirection = 3;
-                        moveToBattlePos = new Vector3Int(-1, 0, 0);
-                    } else {
-                        if(move.y > 0){
-                            faceDirection = 2;
-                            moveToBattlePos = new Vector3Int(0, 1, 0);
-                        } else {
-                            if(move.y < 0){
-                                faceDirection = 0;
-                                moveToBattlePos = new Vector3Int(0, -1, 0);
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        Vector2 move = context.ReadValue<Vector2>();
         
-        moveTo = move;
-    }
-
-    public void onMouseClick(InputAction.CallbackContext context){
-        //Debug.Log(context+" | "+context.ReadValueAsButton());
-        //Debug.Break();
-    }
-
-
-    private int getQuadrante(Vector2 pos){
-        return getQuadrante(pos.x, pos.y);
-    }
-
-    private int getQuadrante(float x, float y){
-        
-        Vector2 vAngle = new Vector2(transform.position.x, transform.position.y) - new Vector2(x, y);
-        float angle = Mathf.Atan2(vAngle.y, vAngle.x) * Mathf.Rad2Deg;
-
-        if((angle > 0) && (angle <= 22.5)){
-            return 6;
+        if(BattleManager.inBattle){
+            Vector2Int bMove = new Vector2Int(move.x > 0 ? 1 : move.x < 0 ? -1 : 0, move.y > 0 ? 1 : move.y < 0 ? -1 : 0);
+            MoveInBattle(bMove);
         } else {
-            if((angle > 22.5) && (angle <= 67.5)){
-                return 7;
-            } else {
-                if((angle > 67.5) && (angle <= 112.5)){
-                    return 0;
-                } else {
-                    if((angle > 112.5) && (angle <= 157.5)){
-                        return 1;
-                    } else {
-                        if((angle > 157.5) && (angle <= 180)){
-                            return 2;
-                        } else {
-                            if((angle > -22.5) && (angle <= 0)){
-                                return 6;
-                            } else {
-                                if((angle > -67.5) && (angle <= -22.5)){
-                                    return 5;
-                                } else {
-                                    if((angle > -112.5) && (angle <= -67.5)){
-                                        return 4;
-                                    } else {
-                                        if((angle > -157.5) && (angle <= -112.5)){
-                                            return 3;
-                                        } else {
-                                            return 2;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+            Move(move);
         }
     }
 }
