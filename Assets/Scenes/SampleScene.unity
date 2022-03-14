@@ -1751,7 +1751,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1961976591}
         m_TargetAssemblyTypeName: Character, PlayerInputRef
-        m_MethodName: moveChar
+        m_MethodName: MoveByKeyboard
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   tileColorArena2: {r: 0.6886792, g: 0.58147913, b: 0.58147913, a: 1}
   tileColorAreaSkill: {r: 0.2206746, g: 0.8207547, b: 0.31217805, a: 0}
   tileColorSelectedSkill: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 0}
-  player: {fileID: 1961976591}
+  player: {fileID: 0}
 --- !u!114 &174955166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2040,6 +2040,7 @@ GameObject:
   - component: {fileID: 533274440}
   - component: {fileID: 533274439}
   - component: {fileID: 533274442}
+  - component: {fileID: 533274443}
   m_Layer: 0
   m_Name: MauMadeiro
   m_TagString: Untagged
@@ -2144,16 +2145,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a04b202a063622b4fb38e2431653ddc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  energySpeed: 0
+  ajustSpritePosition: {x: 0, y: 0}
+  walkSpeed: 0
+  walkCostInBattle: 0
+  status: {fileID: 1972194731}
+  mainSkill: {fileID: 0}
+  secondSkill: {fileID: 0}
+  basicSkill: {fileID: 0}
+  befforeAttacked: []
+  afterAttacked: []
+  whenPlayerApproaches: []
+  whenPlayerPairs: []
+  whenPlayerMove: []
+  onTimer:
+  - possibility: 0
+    action: 0
+    delay: 0
+    timer: 0
+    loop: 0
+    times: 0
   maxHealth: 100
   currentHealth: 0
   startPosition: {x: 0, y: 0}
   distanceUp: 0
-  walkDelay: 1
-  status: {fileID: 1972194731}
-  energySpeed: 0
-  basicAttack: {fileID: 0}
-  mainSkill: {fileID: 0}
-  secondSkill: {fileID: 0}
+--- !u!50 &533274443
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533274438}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &784672068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8618846295073935800, guid: 23470671ff7dc0841bb7450b05d1586c, type: 3}
@@ -8524,14 +8560,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9994ae85fac25c84c9075535d27d68fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 4
   energySpeed: 0.92
-  ajustPos: {x: -0.05, y: 0.3}
+  ajustSpritePosition: {x: 0, y: 0}
+  walkSpeed: 4
+  walkCostInBattle: 0
   status: {fileID: 784672070}
-  currentChar: 0
   mainSkill: {fileID: 3588302373151685132, guid: 983b262458109af498d6a1d480913c74, type: 3}
   secondSkill: {fileID: 0}
   basicSkill: {fileID: 8104819584477155135, guid: 0ed034ae5484a5540a94fdb85e382561, type: 3}
+  currentChar: 0
 --- !u!61 &1961976592
 BoxCollider2D:
   m_ObjectHideFlags: 0

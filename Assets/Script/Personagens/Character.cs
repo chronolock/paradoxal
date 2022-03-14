@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
+using UnityEngine.Events;
 using PCI.Battle;
 
 [RequireComponent(typeof(SpriteRenderer))]
@@ -12,6 +13,7 @@ public class Character : MonoBehaviour
     public float energySpeed;
     public Vector2 ajustSpritePosition;
     public float walkSpeed;
+    public int walkCostInBattle;
     public StatusChar status;
 
     private Animator anima;
@@ -44,14 +46,32 @@ public class Character : MonoBehaviour
     protected string prefixID = "";
     private string randId = "";
 
+    private bool controlKeyDown = false;
+    private Vector2 controlValue = Vector2.zero;
+
+    public UnityEvent beforeMove;
+    public UnityEvent afterMove;
+    public UnityEvent beforeMoveInBattle;
+    public UnityEvent afterMoveInBattle;
+    public UnityEvent beforeAttackMainSkill;
+    public UnityEvent afterAttackMainSkill;
+    public UnityEvent preparingMainSkill;
+    public UnityEvent startPreparingMainSkill;
+    public UnityEvent beforeAttackSecondSkill;
+    public UnityEvent afterAttackSecondSkill;
+    public UnityEvent preparingSecondSkill;
+    public UnityEvent startPreparingSecondSkill;
+    public UnityEvent beforeAttackBasicSkill;
+    public UnityEvent afterAttackBasicSkill;
+    public UnityEvent preparingBasicSkill;
+    public UnityEvent startPreparingBasicSkill;
+
+
     void Start()
     {
-        anima = GetComponent<Animator>();
-        rbody = GetComponent<Rigidbody2D>();
-        sRender = GetComponent<SpriteRenderer>();
-
+        execOnStart();
     }
-    
+
     void Update()
     {
         execOnUpdate();
@@ -68,7 +88,19 @@ public class Character : MonoBehaviour
         return randId;
     }
 
+    protected void execOnStart(){
+        anima = GetComponent<Animator>();
+        rbody = GetComponent<Rigidbody2D>();
+        sRender = GetComponent<SpriteRenderer>();
+
+        rbody.gravityScale = 0;
+    }
+
     protected void execOnUpdate(){
+        if(controlKeyDown){
+            updateMoveVector();
+        }
+
         anima.SetInteger("faceDirection", faceDirection);
         anima.SetBool("inBattle", BattleManager.inBattle);
         anima.SetBool("stopped", stopped);
@@ -123,7 +155,7 @@ public class Character : MonoBehaviour
                 stopped = false;
                 faceDirection = Quadrant.GetQuadrantByAngle(transform.position, startTilePos);
                 countTimeToWalk += Time.deltaTime;
-                rbody.MovePosition( Vector2.Lerp(startTilePos, startCharPos, countTimeToWalk/maxTimeToWalk) );
+                rbody.MovePosition( Vector2.Lerp(startCharPos, startTilePos, countTimeToWalk/maxTimeToWalk) );
 
                 if(countTimeToWalk >= maxTimeToWalk){
                     countTimeToWalk = 0;
@@ -133,15 +165,17 @@ public class Character : MonoBehaviour
             } else {
                 stopped = true;
                 if(moveToInBattle != Vector3Int.zero){
-                    rbody.MovePosition(BattleManager.MoveCharTo(moveToInBattle) + ajustSpritePosition);
+                    rbody.MovePosition(BattleManager.MoveCharTo(GetID(), moveToInBattle) + ajustSpritePosition);
+                    afterMoveInBattle.Invoke();
                 }
             }
         } else {
-            if(moveTo != Vector2.zero){
+            if(moveTo == Vector2.zero){
                 stopped = true;
             } else {
                 stopped = false;
                 rbody.MovePosition(rbody.position + moveTo.normalized * Time.fixedDeltaTime * walkSpeed);
+                afterMove.Invoke();
             }
         }
 
@@ -150,29 +184,57 @@ public class Character : MonoBehaviour
     }
 
     public void EnterInBattle(Vector3Int startPos){
+        movingToBattle = true;
         currentBattlePos = startPos;
         startTilePos = BattleManager.getTilePos(currentBattlePos);
         startCharPos = transform.position;
     }
 
-    public void MoveInBattle(Vector3Int direction){
-        moveToInBattle = direction;
-        changeFaceDirection(((Vector2Int) moveToInBattle));
-        
-    }
     public void MoveInBattle(Vector2Int direction){
         MoveInBattle(((Vector3Int)direction));
     }
 
-    public void MoveInBattle(int quadrant){
-        MoveInBattle(quadrant, 1);
+    public void MoveInBattle(Vector3Int direction){
+        MoveInBattle(direction, 1 , false);
     }
 
-    public void MoveInBattle(int quadrant, int steps){
+    public void MoveInBattle(Vector3Int direction, bool freeMove){
+        MoveInBattle(direction, 1, freeMove);
+    }
+
+    public void MoveInBattle(Vector3Int direction, int steps, bool freeMove){
         if(!BattleManager.inBattle){
             return;
         }
-        moveToInBattle = Quadrant.GetVectorByQuadrant(quadrant) * steps;
+
+        if(BattleManager.CanMoveTo(GetID(), direction)){
+            beforeMoveInBattle.Invoke();
+            if(freeMove){
+                FreeMoveInBattle(direction * steps);
+            } else {
+                if(energyLevel >= walkCostInBattle){
+                    energyLevel -= walkCostInBattle;
+                    FreeMoveInBattle(direction * steps);
+                }
+            }
+        }
+    }
+
+    public void MoveInBattle(int quadrant){
+        MoveInBattle(quadrant, 1, false);
+    }
+
+    public void MoveInBattle(int quadrant, bool freeMove){
+        MoveInBattle(quadrant, 1, freeMove);
+    }
+
+    public void MoveInBattle(int quadrant, int steps, bool freeMove){
+        MoveInBattle(Quadrant.GetVectorByQuadrant(quadrant), steps, freeMove);
+        
+    }
+
+    private void FreeMoveInBattle(Vector3Int direction){
+        moveToInBattle = direction;
         changeFaceDirection(((Vector2Int) moveToInBattle));
     }
 
@@ -192,6 +254,7 @@ public class Character : MonoBehaviour
 
         changeFaceDirection(direction);
         moveTo = direction;
+        beforeMove.Invoke();
     }
 
     public void changeFaceDirection(Vector2 direction){
@@ -236,6 +299,9 @@ public class Character : MonoBehaviour
         if(!BattleManager.inBattle){
             return;
         }
+
+        dispachSkillEvent(skill, startPreparingMainSkill, startPreparingSecondSkill, startPreparingBasicSkill);
+
         skill.prepareSkill(BattleManager.getPosObject(GetID()), Quadrant.GetQuadrantByAngle(transform.position, GetMousePos()));
     }
 
@@ -243,6 +309,8 @@ public class Character : MonoBehaviour
         if(!skill.preparingSkill){
             return;
         }
+
+        dispachSkillEvent(skill, preparingMainSkill, preparingSecondSkill, preparingBasicSkill);
 
         Vector3Int currentPos = BattleManager.getPosObject(GetID());
 
@@ -254,8 +322,10 @@ public class Character : MonoBehaviour
 
     protected void execSkill(Skill skill){
         if(skill.energyCost <= energyLevel){
+            dispachSkillEvent(skill, beforeAttackMainSkill, beforeAttackSecondSkill, beforeAttackBasicSkill);
             if(skill.execSkill()){
                 energyLevel -= skill.energyCost;
+                dispachSkillEvent(skill, afterAttackMainSkill, afterAttackSecondSkill, afterAttackBasicSkill);
             }
         } else {
             skill.cancelSkill();
@@ -275,13 +345,39 @@ public class Character : MonoBehaviour
             return;
         }
 
-        Vector2 move = context.ReadValue<Vector2>();
-        
+        if(context.started){
+            controlKeyDown = true;
+        }
+
+        if(context.canceled){
+            controlKeyDown = false;
+            return;
+        }
+
+        controlValue = context.ReadValue<Vector2>();
+    }
+
+    protected void updateMoveVector()
+    {
         if(BattleManager.inBattle){
-            Vector2Int bMove = new Vector2Int(move.x > 0 ? 1 : move.x < 0 ? -1 : 0, move.y > 0 ? 1 : move.y < 0 ? -1 : 0);
+            Vector2Int bMove = new Vector2Int(controlValue.x > 0 ? 1 : controlValue.x < 0 ? -1 : 0, controlValue.y > 0 ? 1 : controlValue.y < 0 ? -1 : 0);
             MoveInBattle(bMove);
         } else {
-            Move(move);
+            Move(controlValue);
+        }
+    }
+
+    protected void dispachSkillEvent(Skill skill, UnityEvent mainEvent, UnityEvent secondEvent, UnityEvent basicEvent){
+        if(skill == mainSkill){
+            mainEvent.Invoke();
+        } else {
+            if(skill == secondSkill){
+                secondEvent.Invoke();
+            } else {
+                if(skill == basicSkill){
+                    basicEvent.Invoke();
+                }
+            }
         }
     }
 }

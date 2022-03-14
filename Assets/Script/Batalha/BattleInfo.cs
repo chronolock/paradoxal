@@ -10,7 +10,7 @@ namespace PCI.Battle{
 
         public Vector2Int sizeOfArena;
 
-        public Vector3Int startCharacterPos;
+        public List<Vector3Int> startCharacterPos;
 
         public List<Enemy> enemies;
 

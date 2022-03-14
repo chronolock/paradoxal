@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -17,8 +18,6 @@ namespace PCI.Battle{
         public Color tileColorArena2;
         public Color tileColorAreaSkill;
         public Color tileColorSelectedSkill;
-
-        public Character player;
 
         private static BattleManager instance;
 
@@ -44,6 +43,8 @@ namespace PCI.Battle{
         private static int initPosY = 0;
         private static int endPosX = 0;
         private static int endPosY = 0;
+
+        private static List<Player> players = new List<Player>();
 
         void Awake(){
             instance = this;
@@ -93,21 +94,21 @@ namespace PCI.Battle{
             }
         }
 
-        
-
-        public static void RegisterOnPos(){
-
+        public static bool CanMoveTo(string id, Vector3Int direction){
+            Vector3Int oldPos = instance.objInGrid.GetPosByValue(id);
+            Vector3Int newPos = new Vector3Int(oldPos.x + direction.x, oldPos.y + direction.y, 0);
+            return checkPosInArena(newPos);
         }
 
-        public static Vector2 MoveCharTo(Vector3Int position){
-            Vector3Int oldPos = instance.objInGrid.GetPosByValue("P");
+        public static Vector2 MoveCharTo(string id, Vector3Int position){
+            Vector3Int oldPos = instance.objInGrid.GetPosByValue(id);
             Vector3Int newPos = new Vector3Int(oldPos.x + position.x, oldPos.y + position.y, 0);
 
             if(checkPosInArena(newPos)){
 
-                if(instance.objInGrid.GetValue(newPos) == "0"){
-                    instance.objInGrid.SetValue(oldPos, "0");
-                    instance.objInGrid.SetValue(newPos, "P");
+                if(instance.objInGrid.GetValue(newPos) == ArenaID.BLANK){
+                    instance.objInGrid.SetValue(oldPos, ArenaID.BLANK);
+                    instance.objInGrid.SetValue(newPos, id);
                     return instance.battleTilemap.GetCellCenterLocal(newPos);
                 }
             }
@@ -115,7 +116,7 @@ namespace PCI.Battle{
             return instance.battleTilemap.GetCellCenterLocal(oldPos);
         }
 
-        public static void StartBattle(Vector3Int centerOfArena, Vector2Int size, Vector3Int startCharPos, List<Enemy> inimigos, List<Vector3Int> inimigosPos){
+        public static void StartBattle(Vector3Int centerOfArena, Vector2Int size, List<Vector3Int> startCharPos, List<Enemy> inimigos, List<Vector3Int> inimigosPos){
             initPosX = centerOfArena.x - size.x / 2;
             initPosY = centerOfArena.y - size.y / 2;
             endPosX = centerOfArena.x + size.x / 2;
@@ -124,6 +125,8 @@ namespace PCI.Battle{
             Camera.main.GetComponent<CameraFollow>().enabled = false;
             Camera.main.GetComponent<MoveObj>().moveTo(instance.battleTilemap.GetCellCenterLocal(centerOfArena) + new Vector3(0, 0, Camera.main.transform.position.z));
 
+            UpdatePlayersInBattle();
+
             for(int i = initPosX; i <= endPosX; i++){
                 //instance.objInGrid.Add(new List<TilePos>());
                 for(int j = initPosY; j <= endPosY; j++){
@@ -131,26 +134,50 @@ namespace PCI.Battle{
                     currentArena.Add(tilePos);
                     instance.battleTilemap.SetTile(tilePos, instance.arenaTile);
                     instance.battleTilemap.SetTileFlags(tilePos, TileFlags.None);
-                    //int lastRow = instance.objInGrid.Count - 1;
-                    if((startCharPos.x == i) && (startCharPos.y == j)){
-                        instance.objInGrid.SetValue(i, j, "P");
-                    } else {
-                        instance.objInGrid.SetValue(i, j, "0");
-                    }
-
                     
+                    if(!StartPlayerPos(startCharPos, i, j)){
+                        instance.objInGrid.SetValue(i, j, ArenaID.BLANK);
+                    }
 
                     for(int l = 0; l < inimigos.Count; l++){
                         if((inimigosPos[l].x == i) && (inimigosPos[l].y == j)){
-                            instance.objInGrid.SetValue(i, j, inimigos[l].GetId());
+                            instance.objInGrid.SetValue(i, j, inimigos[l].GetID());
                         }
                     }
                 }
             }
 
-            instance.player.moveToBattle(instance.battleTilemap.GetCellCenterLocal(startCharPos));
-
             inBattle = true;
+        }
+
+        private static void UpdatePlayersInBattle(){
+            players = new List<Player>();
+            
+            GameObject[] goPlayers = GameObject.FindGameObjectsWithTag("Player");
+
+            for(int i = 0; i < goPlayers.Length; i++){
+                try{
+                    players.Add(goPlayers[i].GetComponent<Player>());
+                } catch(Exception e){
+                    Debug.Log("Player TAG without Player component");
+                    Debug.Log(e.StackTrace);
+                }
+            }
+        }
+
+        private static bool StartPlayerPos(List<Vector3Int> startCharPos, int x, int y){
+            for(int i = 0; i < startCharPos.Count; i++){
+                if((startCharPos[i].x == x) && (startCharPos[i].y == y)){
+                    for(int j = 0; j < players.Count; j++){
+                        if(players[j].groupPos == i){
+                            instance.objInGrid.SetValue(x, y, players[j].GetID());
+                            players[j].EnterInBattle(startCharPos[i]);
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
         }
 
         public static void setSkillTile(Vector3Int pos){
